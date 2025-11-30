@@ -19,3 +19,4 @@ private void button1_Click(object sender, EventArgs e)
 {
     label1.Text = "Selected Date is: " + dateTimePicker1.Value.ToString("yyyy/mm/dd");
 }
+![chooseDate](https://github.com/user-attachments/assets/655906e8-6bae-4703-a89f-9637e360d2fd)
