@@ -15,4 +15,7 @@ A simple Windows Forms application that allows the user to pick a date using a *
 
 ## 📌 Code Snippet
 ```csharp
-
+private void button1_Click(object sender, EventArgs e)
+{
+    label1.Text = "Selected Date is: " + dateTimePicker1.Value.ToString("yyyy/mm/dd");
+}
